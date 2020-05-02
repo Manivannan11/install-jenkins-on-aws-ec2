@@ -5,6 +5,6 @@ if a>b and a>c :
    print('a is greater')
 elif b>c :
    print('b is greater')
-else 
+else :
    print('c is greater')
    
