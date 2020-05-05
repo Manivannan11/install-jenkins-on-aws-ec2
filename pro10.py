@@ -4,7 +4,7 @@ class Demo():
     self.b=b
     c=a+b
     print(c)
-  def display():
+  def display(self):
     print("value of a is",self.a)
     print("value of b is",self.b)
 
