@@ -1,5 +1,5 @@
 f=open("/home/ec2-user/man/install-jenkins-on-aws-ec2/sample.txt","r+,w+")
-a=input()
+a=str(input('enter a keyword:'))
 count=0
 for line in f.readlines():
    count+=1
