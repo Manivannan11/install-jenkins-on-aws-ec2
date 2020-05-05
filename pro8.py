@@ -1,4 +1,4 @@
-f=open("/home/ec2-user/man/install-jenkins-on-aws-ec2/sample.txt","r+")
+f=open("/home/ec2-user/man/install-jenkins-on-aws-ec2/sample.txt","r+,w+")
 a=input("enter the keyword:")
 count=0
 for line in f.readlines():
