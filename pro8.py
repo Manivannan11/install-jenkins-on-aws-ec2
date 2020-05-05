@@ -3,6 +3,7 @@ a=input()
 count=0
 for line in f.readlines():
    count+=1
+   print(line)
    if a in line:
       print("keyword found in the line:",count)
 f.close()
