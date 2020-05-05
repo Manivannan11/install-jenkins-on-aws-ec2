@@ -6,7 +6,7 @@ class Demo():
     print(c)
   def display():
     print("value of a is",self.a)
-    print("value if b is",self.b)
+    print("value of b is",self.b)
 
 obj=Demo(10,20)
-obj.display
+obj.display()
