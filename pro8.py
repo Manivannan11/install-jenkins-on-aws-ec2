@@ -4,5 +4,5 @@ count=0
 for line in f.readlines():
    count+=1
    if word in line:
-      print("keyword found in the line:" count)
+      print("keyword found in the line:",count)
 f.close()
