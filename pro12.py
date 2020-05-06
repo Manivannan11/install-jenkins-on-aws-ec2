@@ -1,4 +1,4 @@
 import pro11
 
-a = mymodule.person1["age"]
+a = pro11.person1["age"]
 print(a)
