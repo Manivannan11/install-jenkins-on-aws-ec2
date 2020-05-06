@@ -1,4 +1,6 @@
 import pro11
 
-a = pro11.person1[{}]
+for i in person1:
+  print(i)
+a = pro11.person1[age]
 print(a)
